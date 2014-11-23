@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84164A5B1A21B11100A8B7F4 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84164A5A1A21B11100A8B7F4 /* Operators.swift */; };
 		841B547D1A200FFF0032E044 /* Algebra.h in Headers */ = {isa = PBXBuildFile; fileRef = 841B547C1A200FFF0032E044 /* Algebra.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		841B54831A200FFF0032E044 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841B54771A200FFF0032E044 /* Algebra.framework */; };
 		841B548A1A200FFF0032E044 /* AlgebraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54891A200FFF0032E044 /* AlgebraTests.swift */; };
@@ -18,7 +19,6 @@
 		841B54AA1A2141020032E044 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54A91A2141020032E044 /* Ring.swift */; };
 		841B54AE1A2144050032E044 /* Lattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54AD1A2144050032E044 /* Lattice.swift */; };
 		841B54B21A2144350032E044 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54B11A2144350032E044 /* Module.swift */; };
-		841B54EA1A2180300032E044 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54E91A2180300032E044 /* Operators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84164A5A1A21B11100A8B7F4 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Algebra/Operators.swift; sourceTree = "<group>"; };
 		841B54771A200FFF0032E044 /* Algebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841B547B1A200FFF0032E044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841B547C1A200FFF0032E044 /* Algebra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algebra.h; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		841B54A91A2141020032E044 /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
 		841B54AD1A2144050032E044 /* Lattice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lattice.swift; sourceTree = "<group>"; };
 		841B54B11A2144350032E044 /* Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
-		841B54E91A2180300032E044 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 		841B546D1A200FFF0032E044 = {
 			isa = PBXGroup;
 			children = (
-				841B54E91A2180300032E044 /* Operators.swift */,
+				84164A5A1A21B11100A8B7F4 /* Operators.swift */,
 				841B54791A200FFF0032E044 /* Algebra */,
 				841B54861A200FFF0032E044 /* AlgebraTests */,
 				841B54781A200FFF0032E044 /* Products */,
@@ -244,7 +244,7 @@
 				841B54B21A2144350032E044 /* Module.swift in Sources */,
 				841B54AE1A2144050032E044 /* Lattice.swift in Sources */,
 				841B54A61A213F4B0032E044 /* Semiring.swift in Sources */,
-				841B54EA1A2180300032E044 /* Operators.swift in Sources */,
+				84164A5B1A21B11100A8B7F4 /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
