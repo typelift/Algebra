@@ -6,7 +6,8 @@
 //  Copyright (c) 2014 TypeLift. All rights reserved.
 //
 
-
+/// A magma is a set and a closed binary operator.  It is usually not studied because it forms the
+/// basis of more interesting structures.
 protocol Magma {
 	typealias M
 	func <>(M, M) -> M
