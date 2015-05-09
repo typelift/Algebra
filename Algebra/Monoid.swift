@@ -18,12 +18,12 @@
 
 /// Semigroups with a zero identity.
 protocol Additive : Semigroup {
-	class func zero() -> M
+	static func zero() -> M
 }
 
 /// Semigroups with a one identity.
 protocol Multiplicative : Semigroup {
-	class func one() -> M
+	static func one() -> M
 }
 
 
