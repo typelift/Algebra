@@ -19,6 +19,19 @@
 		841B54E61A217FCB0032E044 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DE1A217FCB0032E044 /* Ring.swift */; };
 		841B54E71A217FCB0032E044 /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DF1A217FCB0032E044 /* Semigroup.swift */; };
 		841B54E81A217FCB0032E044 /* Semiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54E01A217FCB0032E044 /* Semiring.swift */; };
+		84A53D941B1A91AF00E8A107 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A53D891B1A91AF00E8A107 /* Algebra.framework */; };
+		84A53DA21B1A91C100E8A107 /* AlgebraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54CF1A217FB30032E044 /* AlgebraTests.swift */; };
+		84A53DA31B1A91F400E8A107 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84164A581A21B10C00A8B7F4 /* Operators.swift */; };
+		84A53DA41B1A91F400E8A107 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54D91A217FCB0032E044 /* Group.swift */; };
+		84A53DA51B1A91F400E8A107 /* Lattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DA1A217FCB0032E044 /* Lattice.swift */; };
+		84A53DA61B1A91F400E8A107 /* Magma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DB1A217FCB0032E044 /* Magma.swift */; };
+		84A53DA71B1A91F400E8A107 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DC1A217FCB0032E044 /* Module.swift */; };
+		84A53DA81B1A91F400E8A107 /* Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DD1A217FCB0032E044 /* Monoid.swift */; };
+		84A53DA91B1A91F400E8A107 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DE1A217FCB0032E044 /* Ring.swift */; };
+		84A53DAA1B1A91F400E8A107 /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DF1A217FCB0032E044 /* Semigroup.swift */; };
+		84A53DAB1B1A91F400E8A107 /* Semiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54E01A217FCB0032E044 /* Semiring.swift */; };
+		84A53DAC1B1A920500E8A107 /* Algebra.h in Headers */ = {isa = PBXBuildFile; fileRef = 841B54C21A217FB30032E044 /* Algebra.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84A53DB11B1A93C800E8A107 /* Algebra.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84A53D891B1A91AF00E8A107 /* Algebra.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +42,33 @@
 			remoteGlobalIDString = 841B54BC1A217FB20032E044;
 			remoteInfo = Algebra;
 		};
+		84A53D951B1A91AF00E8A107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841B54B41A217FB20032E044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84A53D881B1A91AF00E8A107;
+			remoteInfo = "Algebra-iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84A53DB01B1A93C200E8A107 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84A53DB11B1A93C800E8A107 /* Algebra.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		84164A581A21B10C00A8B7F4 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Algebra/Operators.swift; sourceTree = "<group>"; };
 		841B54BD1A217FB20032E044 /* Algebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841B54C11A217FB30032E044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		841B54C21A217FB30032E044 /* Algebra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algebra.h; sourceTree = "<group>"; };
+		841B54C21A217FB30032E044 /* Algebra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Algebra.h; path = Algebra/Algebra.h; sourceTree = "<group>"; };
 		841B54C81A217FB30032E044 /* AlgebraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgebraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841B54CE1A217FB30032E044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841B54CF1A217FB30032E044 /* AlgebraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgebraTests.swift; sourceTree = "<group>"; };
@@ -47,6 +80,8 @@
 		841B54DE1A217FCB0032E044 /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
 		841B54DF1A217FCB0032E044 /* Semigroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Semigroup.swift; sourceTree = "<group>"; };
 		841B54E01A217FCB0032E044 /* Semiring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Semiring.swift; sourceTree = "<group>"; };
+		84A53D891B1A91AF00E8A107 /* Algebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A53D931B1A91AF00E8A107 /* Algebra-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algebra-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +100,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84A53D851B1A91AF00E8A107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A53D901B1A91AF00E8A107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A53D941B1A91AF00E8A107 /* Algebra.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		841B54B31A217FB20032E044 = {
 			isa = PBXGroup;
 			children = (
+				841B54C21A217FB30032E044 /* Algebra.h */,
 				84164A581A21B10C00A8B7F4 /* Operators.swift */,
 				841B54BF1A217FB20032E044 /* Algebra */,
 				841B54CC1A217FB30032E044 /* AlgebraTests */,
@@ -83,6 +134,8 @@
 			children = (
 				841B54BD1A217FB20032E044 /* Algebra.framework */,
 				841B54C81A217FB30032E044 /* AlgebraTests.xctest */,
+				84A53D891B1A91AF00E8A107 /* Algebra.framework */,
+				84A53D931B1A91AF00E8A107 /* Algebra-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,7 +143,6 @@
 		841B54BF1A217FB20032E044 /* Algebra */ = {
 			isa = PBXGroup;
 			children = (
-				841B54C21A217FB30032E044 /* Algebra.h */,
 				841B54D91A217FCB0032E044 /* Group.swift */,
 				841B54DA1A217FCB0032E044 /* Lattice.swift */,
 				841B54DB1A217FCB0032E044 /* Magma.swift */,
@@ -140,6 +192,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84A53D861B1A91AF00E8A107 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A53DAC1B1A920500E8A107 /* Algebra.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -179,6 +239,43 @@
 			productReference = 841B54C81A217FB30032E044 /* AlgebraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		84A53D881B1A91AF00E8A107 /* Algebra-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A53DA01B1A91AF00E8A107 /* Build configuration list for PBXNativeTarget "Algebra-iOS" */;
+			buildPhases = (
+				84A53D841B1A91AF00E8A107 /* Sources */,
+				84A53D851B1A91AF00E8A107 /* Frameworks */,
+				84A53D861B1A91AF00E8A107 /* Headers */,
+				84A53D871B1A91AF00E8A107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Algebra-iOS";
+			productName = "Algebra-iOS";
+			productReference = 84A53D891B1A91AF00E8A107 /* Algebra.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84A53D921B1A91AF00E8A107 /* Algebra-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A53DA11B1A91AF00E8A107 /* Build configuration list for PBXNativeTarget "Algebra-iOSTests" */;
+			buildPhases = (
+				84A53D8F1B1A91AF00E8A107 /* Sources */,
+				84A53D901B1A91AF00E8A107 /* Frameworks */,
+				84A53D911B1A91AF00E8A107 /* Resources */,
+				84A53DB01B1A93C200E8A107 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84A53D961B1A91AF00E8A107 /* PBXTargetDependency */,
+			);
+			name = "Algebra-iOSTests";
+			productName = "Algebra-iOSTests";
+			productReference = 84A53D931B1A91AF00E8A107 /* Algebra-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,6 +290,12 @@
 					};
 					841B54C71A217FB30032E044 = {
 						CreatedOnToolsVersion = 6.2;
+					};
+					84A53D881B1A91AF00E8A107 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					84A53D921B1A91AF00E8A107 = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
@@ -210,6 +313,8 @@
 			targets = (
 				841B54BC1A217FB20032E044 /* Algebra */,
 				841B54C71A217FB30032E044 /* AlgebraTests */,
+				84A53D881B1A91AF00E8A107 /* Algebra-iOS */,
+				84A53D921B1A91AF00E8A107 /* Algebra-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +328,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		841B54C61A217FB30032E044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A53D871B1A91AF00E8A107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A53D911B1A91AF00E8A107 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,6 +375,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84A53D841B1A91AF00E8A107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A53DA31B1A91F400E8A107 /* Operators.swift in Sources */,
+				84A53DA41B1A91F400E8A107 /* Group.swift in Sources */,
+				84A53DA51B1A91F400E8A107 /* Lattice.swift in Sources */,
+				84A53DA61B1A91F400E8A107 /* Magma.swift in Sources */,
+				84A53DA71B1A91F400E8A107 /* Module.swift in Sources */,
+				84A53DA81B1A91F400E8A107 /* Monoid.swift in Sources */,
+				84A53DA91B1A91F400E8A107 /* Ring.swift in Sources */,
+				84A53DAA1B1A91F400E8A107 /* Semigroup.swift in Sources */,
+				84A53DAB1B1A91F400E8A107 /* Semiring.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A53D8F1B1A91AF00E8A107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A53DA21B1A91C100E8A107 /* AlgebraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -263,6 +406,11 @@
 			isa = PBXTargetDependency;
 			target = 841B54BC1A217FB20032E044 /* Algebra */;
 			targetProxy = 841B54CA1A217FB30032E044 /* PBXContainerItemProxy */;
+		};
+		84A53D961B1A91AF00E8A107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84A53D881B1A91AF00E8A107 /* Algebra-iOS */;
+			targetProxy = 84A53D951B1A91AF00E8A107 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -417,6 +565,94 @@
 			};
 			name = Release;
 		};
+		84A53D9C1B1A91AF00E8A107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Algebra/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Algebra;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A53D9D1B1A91AF00E8A107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = Algebra/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Algebra;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A53D9E1B1A91AF00E8A107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlgebraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84A53D9F1B1A91AF00E8A107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = AlgebraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -443,6 +679,24 @@
 			buildConfigurations = (
 				841B54D71A217FB30032E044 /* Debug */,
 				841B54D81A217FB30032E044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A53DA01B1A91AF00E8A107 /* Build configuration list for PBXNativeTarget "Algebra-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A53D9C1B1A91AF00E8A107 /* Debug */,
+				84A53D9D1B1A91AF00E8A107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A53DA11B1A91AF00E8A107 /* Build configuration list for PBXNativeTarget "Algebra-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A53D9E1B1A91AF00E8A107 /* Debug */,
+				84A53D9F1B1A91AF00E8A107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
