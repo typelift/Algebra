@@ -31,6 +31,7 @@
 		84A53DAA1B1A91F400E8A107 /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DF1A217FCB0032E044 /* Semigroup.swift */; };
 		84A53DAB1B1A91F400E8A107 /* Semiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54E01A217FCB0032E044 /* Semiring.swift */; };
 		84A53DAC1B1A920500E8A107 /* Algebra.h in Headers */ = {isa = PBXBuildFile; fileRef = 841B54C21A217FB30032E044 /* Algebra.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84A53DB11B1A93C800E8A107 /* Algebra.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84A53D891B1A91AF00E8A107 /* Algebra.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,19 @@
 			remoteInfo = "Algebra-iOS";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84A53DB01B1A93C200E8A107 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84A53DB11B1A93C800E8A107 /* Algebra.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		84164A581A21B10C00A8B7F4 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Algebra/Operators.swift; sourceTree = "<group>"; };
@@ -250,6 +264,7 @@
 				84A53D8F1B1A91AF00E8A107 /* Sources */,
 				84A53D901B1A91AF00E8A107 /* Frameworks */,
 				84A53D911B1A91AF00E8A107 /* Resources */,
+				84A53DB01B1A93C200E8A107 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -675,6 +690,7 @@
 				84A53D9D1B1A91AF00E8A107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A53DA11B1A91AF00E8A107 /* Build configuration list for PBXNativeTarget "Algebra-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -683,6 +699,7 @@
 				84A53D9F1B1A91AF00E8A107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

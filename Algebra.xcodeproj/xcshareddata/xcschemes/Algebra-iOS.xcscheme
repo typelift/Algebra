@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "84A53D881B1A91AF00E8A107"
-               BuildableName = "Algebra-iOS.framework"
+               BuildableName = "Algebra.framework"
                BlueprintName = "Algebra-iOS"
                ReferencedContainer = "container:Algebra.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84A53D881B1A91AF00E8A107"
-            BuildableName = "Algebra-iOS.framework"
+            BuildableName = "Algebra.framework"
             BlueprintName = "Algebra-iOS"
             ReferencedContainer = "container:Algebra.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84A53D881B1A91AF00E8A107"
-            BuildableName = "Algebra-iOS.framework"
+            BuildableName = "Algebra.framework"
             BlueprintName = "Algebra-iOS"
             ReferencedContainer = "container:Algebra.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "84A53D881B1A91AF00E8A107"
-            BuildableName = "Algebra-iOS.framework"
+            BuildableName = "Algebra.framework"
             BlueprintName = "Algebra-iOS"
             ReferencedContainer = "container:Algebra.xcodeproj">
          </BuildableReference>
