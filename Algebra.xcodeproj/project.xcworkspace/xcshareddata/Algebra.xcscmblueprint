@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "570C4D95BE80B5E8C6FFC0BED8318BC62404E6A6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "53964F28C4CCA0826677C9F951DD3F64C20326C4" : 0,
+    "570C4D95BE80B5E8C6FFC0BED8318BC62404E6A6" : 0,
+    "B1566CF92CFABA5E37554B7B555A1BA50691C03A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7463F262-5386-4D27-88FC-7EDEE3B15B7F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "53964F28C4CCA0826677C9F951DD3F64C20326C4" : "Algebra\/Carthage\/Checkouts\/SwiftCheck\/",
+    "570C4D95BE80B5E8C6FFC0BED8318BC62404E6A6" : "Algebra\/",
+    "B1566CF92CFABA5E37554B7B555A1BA50691C03A" : "Algebra\/Carthage\/Checkouts\/SwiftCheck\/Carthage\/Checkouts\/Operadics\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Algebra",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Algebra.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/typelift\/SwiftCheck.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "53964F28C4CCA0826677C9F951DD3F64C20326C4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CodaFi\/Algebra.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "570C4D95BE80B5E8C6FFC0BED8318BC62404E6A6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/typelift\/Operadics.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1566CF92CFABA5E37554B7B555A1BA50691C03A"
+    }
+  ]
+}

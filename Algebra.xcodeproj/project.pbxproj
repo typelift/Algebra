@@ -32,6 +32,10 @@
 		84A53DAB1B1A91F400E8A107 /* Semiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54E01A217FCB0032E044 /* Semiring.swift */; };
 		84A53DAC1B1A920500E8A107 /* Algebra.h in Headers */ = {isa = PBXBuildFile; fileRef = 841B54C21A217FB30032E044 /* Algebra.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84A53DB11B1A93C800E8A107 /* Algebra.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84A53D891B1A91AF00E8A107 /* Algebra.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84EA2C331B1E8CAB0001FB3F /* Algebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA2C321B1E8CAB0001FB3F /* Algebra.swift */; };
+		84EA2C341B1E8CAB0001FB3F /* Algebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA2C321B1E8CAB0001FB3F /* Algebra.swift */; };
+		84EA2C361B222B250001FB3F /* Idempotent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA2C351B222B250001FB3F /* Idempotent.swift */; };
+		84EA2C371B222B250001FB3F /* Idempotent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA2C351B222B250001FB3F /* Idempotent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +86,8 @@
 		841B54E01A217FCB0032E044 /* Semiring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Semiring.swift; sourceTree = "<group>"; };
 		84A53D891B1A91AF00E8A107 /* Algebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A53D931B1A91AF00E8A107 /* Algebra-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algebra-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EA2C321B1E8CAB0001FB3F /* Algebra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algebra.swift; sourceTree = "<group>"; };
+		84EA2C351B222B250001FB3F /* Idempotent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Idempotent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +149,9 @@
 		841B54BF1A217FB20032E044 /* Algebra */ = {
 			isa = PBXGroup;
 			children = (
+				84EA2C321B1E8CAB0001FB3F /* Algebra.swift */,
 				841B54D91A217FCB0032E044 /* Group.swift */,
+				84EA2C351B222B250001FB3F /* Idempotent.swift */,
 				841B54DA1A217FCB0032E044 /* Lattice.swift */,
 				841B54DB1A217FCB0032E044 /* Magma.swift */,
 				841B54DC1A217FCB0032E044 /* Module.swift */,
@@ -357,14 +365,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841B54E31A217FCB0032E044 /* Magma.swift in Sources */,
+				84EA2C361B222B250001FB3F /* Idempotent.swift in Sources */,
 				841B54E21A217FCB0032E044 /* Lattice.swift in Sources */,
 				841B54E61A217FCB0032E044 /* Ring.swift in Sources */,
 				841B54E41A217FCB0032E044 /* Module.swift in Sources */,
 				841B54E71A217FCB0032E044 /* Semigroup.swift in Sources */,
-				841B54E31A217FCB0032E044 /* Magma.swift in Sources */,
 				841B54E11A217FCB0032E044 /* Group.swift in Sources */,
 				841B54E51A217FCB0032E044 /* Monoid.swift in Sources */,
 				841B54E81A217FCB0032E044 /* Semiring.swift in Sources */,
+				84EA2C331B1E8CAB0001FB3F /* Algebra.swift in Sources */,
 				84164A591A21B10C00A8B7F4 /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EA2C371B222B250001FB3F /* Idempotent.swift in Sources */,
 				84A53DA31B1A91F400E8A107 /* Operators.swift in Sources */,
 				84A53DA41B1A91F400E8A107 /* Group.swift in Sources */,
 				84A53DA51B1A91F400E8A107 /* Lattice.swift in Sources */,
@@ -389,6 +400,7 @@
 				84A53DA81B1A91F400E8A107 /* Monoid.swift in Sources */,
 				84A53DA91B1A91F400E8A107 /* Ring.swift in Sources */,
 				84A53DAA1B1A91F400E8A107 /* Semigroup.swift in Sources */,
+				84EA2C341B1E8CAB0001FB3F /* Algebra.swift in Sources */,
 				84A53DAB1B1A91F400E8A107 /* Semiring.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

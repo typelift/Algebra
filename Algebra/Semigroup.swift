@@ -10,3 +10,17 @@
 ///
 ///     (S <> S) <> S == S <> (S <> S)
 protocol Semigroup : Magma { }
+
+extension Bool : Semigroup { }
+extension UInt : Semigroup { }
+extension UInt8 : Semigroup { }
+extension UInt16 : Semigroup { }
+extension UInt32 : Semigroup { }
+extension UInt64 : Semigroup { }
+extension Int : Semigroup { }
+extension Int8 : Semigroup { }
+extension Int16 : Semigroup { }
+extension Int32 : Semigroup { }
+extension Int64 : Semigroup { }
+extension Float : Semigroup { }
+extension Double : Semigroup { }

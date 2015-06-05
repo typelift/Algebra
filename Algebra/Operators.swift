@@ -6,14 +6,6 @@
 //  Copyright (c) 2014 TypeLift. All rights reserved.
 //
 
-infix operator <> {
-
-}
-
-infix operator *<> {
-
-}
-
-infix operator <>* {
-
-}
+infix operator <> { }
+infix operator *<> { }
+infix operator <>* { }

@@ -19,3 +19,33 @@ protocol Group : Additive {
 ///
 ///     a <> b = b <> a
 protocol AbelianGroup : Group { }
+
+extension Int : Group {
+	static func invert(l : Int) -> Int { return -l }
+}
+extension Int8 : Group {
+	static func invert(l : Int8) -> Int8 { return -l }
+}
+extension Int16 : Group {
+	static func invert(l : Int16) -> Int16 { return -l }
+}
+extension Int32 : Group {
+	static func invert(l : Int32) -> Int32 { return -l }
+}
+extension Int64 : Group {
+	static func invert(l : Int64) -> Int64 { return -l }
+}
+extension Float : Group {
+	static func invert(l : Float) -> Float { return -l }
+}
+extension Double : Group {
+	static func invert(l : Double) -> Double { return -l }
+}
+
+extension Int : AbelianGroup { }
+extension Int8 : AbelianGroup { }
+extension Int16 : AbelianGroup { }
+extension Int32 : AbelianGroup { }
+extension Int64 : AbelianGroup { }
+extension Float : AbelianGroup { }
+extension Double : AbelianGroup { }

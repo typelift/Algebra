@@ -38,3 +38,32 @@ protocol BoundedMeetSemilattice : MeetSemilattice {
 /// A Bounded Lattice is a partially ordered set that defines a both meet and join operation and
 /// distinguishes both a least and greatest element.
 protocol BoundedLattice : BoundedJoinSemilattice, BoundedMeetSemilattice { }
+
+extension Bool : JoinSemilattice {
+	typealias L = Bool
+	public static func join(l : Bool) -> Bool -> Bool {
+		return { r in l  || r }
+	}
+}
+
+extension Bool : MeetSemilattice {
+	public static func meet(l : Bool) -> Bool -> Bool {
+		return { r in l  && r }
+	}
+}
+
+extension Bool : Lattice { }
+
+extension Bool : BoundedJoinSemilattice {
+	static func least() -> Bool {
+		return false
+	}
+}
+
+extension Bool : BoundedMeetSemilattice {
+	static func greatest() -> Bool {
+		return true
+	}
+}
+
+extension Bool : BoundedLattice { }
