@@ -39,6 +39,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		829F152E1B67DCCD00F8E692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 844FCC8D198B320500EB242A;
+			remoteInfo = SwiftCheck;
+		};
+		829F15301B67DCCD00F8E692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 844FCC98198B320500EB242A;
+			remoteInfo = SwiftCheckTests;
+		};
+		829F15321B67DCCD00F8E692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84DF75F81B0BD54600C912B0;
+			remoteInfo = "SwiftCheck-iOS";
+		};
+		829F15341B67DCCD00F8E692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84DF76021B0BD54600C912B0;
+			remoteInfo = "SwiftCheck-iOSTests";
+		};
 		841B54CA1A217FB30032E044 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 841B54B41A217FB20032E044 /* Project object */;
@@ -69,6 +97,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftCheck.xcodeproj; path = Carthage/Checkouts/SwiftCheck/SwiftCheck.xcodeproj; sourceTree = "<group>"; };
 		84164A581A21B10C00A8B7F4 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Algebra/Operators.swift; sourceTree = "<group>"; };
 		841B54BD1A217FB20032E044 /* Algebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841B54C11A217FB30032E044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,9 +153,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		829F15281B67DCCC00F8E692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				829F152F1B67DCCD00F8E692 /* SwiftCheck.framework */,
+				829F15311B67DCCD00F8E692 /* SwiftCheckTests.xctest */,
+				829F15331B67DCCD00F8E692 /* SwiftCheck.framework */,
+				829F15351B67DCCD00F8E692 /* SwiftCheck-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		841B54B31A217FB20032E044 = {
 			isa = PBXGroup;
 			children = (
+				829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */,
 				841B54C21A217FB30032E044 /* Algebra.h */,
 				84164A581A21B10C00A8B7F4 /* Operators.swift */,
 				841B54BF1A217FB20032E044 /* Algebra */,
@@ -319,6 +360,12 @@
 			mainGroup = 841B54B31A217FB20032E044;
 			productRefGroup = 841B54BE1A217FB20032E044 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 829F15281B67DCCC00F8E692 /* Products */;
+					ProjectRef = 829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				841B54BC1A217FB20032E044 /* Algebra */,
@@ -328,6 +375,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		829F152F1B67DCCD00F8E692 /* SwiftCheck.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftCheck.framework;
+			remoteRef = 829F152E1B67DCCD00F8E692 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		829F15311B67DCCD00F8E692 /* SwiftCheckTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftCheckTests.xctest;
+			remoteRef = 829F15301B67DCCD00F8E692 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		829F15331B67DCCD00F8E692 /* SwiftCheck.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftCheck.framework;
+			remoteRef = 829F15321B67DCCD00F8E692 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		829F15351B67DCCD00F8E692 /* SwiftCheck-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftCheck-iOSTests.xctest";
+			remoteRef = 829F15341B67DCCD00F8E692 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		841B54BB1A217FB20032E044 /* Resources */ = {
