@@ -65,3 +65,9 @@ public func <>*(l : Int32, r : Int) -> Int32 { return l * Int32(r) }
 extension Int64 : RightModule { }
 public func <>*(l : Int64, r : Int) -> Int64 { return l * Int64(r) }
 
+
+extension Int : Bimodule { }
+extension Int8 : Bimodule { }
+extension Int16 : Bimodule { }
+extension Int32 : Bimodule { }
+extension Int64 : Bimodule { }
