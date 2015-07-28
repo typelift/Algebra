@@ -10,7 +10,7 @@
 /// operation that computes the least upper bound).
 protocol JoinSemilattice {
 	associatedtype L
-	static func join(_: L) -> L -> L
+	static func join(_ : L) -> L -> L
 }
 
 /// A Meet-Semilattice is a partially ordered set that defines a meet operation (that is, has an 

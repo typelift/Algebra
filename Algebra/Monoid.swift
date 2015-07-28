@@ -26,7 +26,7 @@ protocol Multiplicative : Semigroup {
 	static var one : M { get }
 }
 
-extension Bool : Semigroup {
+extension Bool : Additive {
 	public static var zero : Bool { return false }
 }
 extension UInt : Additive {

@@ -11,7 +11,7 @@
 ///
 ///     a <> b = b <> a = e
 protocol Group : Additive {
-	static func invert(_: M) -> M
+	static func invert(_ : M) -> M
 }
 
 /// An Abelian Group is a group where the binary operation is commutative.  That is forall 'a', 'b',
