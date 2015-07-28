@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84164A591A21B10C00A8B7F4 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84164A581A21B10C00A8B7F4 /* Operators.swift */; };
+		829F15381B67DD1900F8E692 /* SwiftCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829F152F1B67DCCD00F8E692 /* SwiftCheck.framework */; };
+		829F153A1B67DD2400F8E692 /* SwiftCheck.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 829F152F1B67DCCD00F8E692 /* SwiftCheck.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		829F153D1B67DD2D00F8E692 /* SwiftCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829F152F1B67DCCD00F8E692 /* SwiftCheck.framework */; };
+		829F153F1B67DD3100F8E692 /* SwiftCheck.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 829F15331B67DCCD00F8E692 /* SwiftCheck.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		829F15411B67DD5C00F8E692 /* SemigroupSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F15401B67DD5C00F8E692 /* SemigroupSpec.swift */; };
+		829F15421B67DD5C00F8E692 /* SemigroupSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F15401B67DD5C00F8E692 /* SemigroupSpec.swift */; };
+		829F15441B67DE3700F8E692 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F15431B67DE3700F8E692 /* Operators.swift */; };
+		829F15451B67DE3700F8E692 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F15431B67DE3700F8E692 /* Operators.swift */; };
+		84164A591A21B10C00A8B7F4 /* AlgebraOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84164A581A21B10C00A8B7F4 /* AlgebraOperators.swift */; };
 		841B54C31A217FB30032E044 /* Algebra.h in Headers */ = {isa = PBXBuildFile; fileRef = 841B54C21A217FB30032E044 /* Algebra.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		841B54C91A217FB30032E044 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841B54BD1A217FB20032E044 /* Algebra.framework */; };
-		841B54D01A217FB30032E044 /* AlgebraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54CF1A217FB30032E044 /* AlgebraTests.swift */; };
 		841B54E11A217FCB0032E044 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54D91A217FCB0032E044 /* Group.swift */; };
 		841B54E21A217FCB0032E044 /* Lattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DA1A217FCB0032E044 /* Lattice.swift */; };
 		841B54E31A217FCB0032E044 /* Magma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DB1A217FCB0032E044 /* Magma.swift */; };
@@ -20,8 +27,7 @@
 		841B54E71A217FCB0032E044 /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DF1A217FCB0032E044 /* Semigroup.swift */; };
 		841B54E81A217FCB0032E044 /* Semiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54E01A217FCB0032E044 /* Semiring.swift */; };
 		84A53D941B1A91AF00E8A107 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A53D891B1A91AF00E8A107 /* Algebra.framework */; };
-		84A53DA21B1A91C100E8A107 /* AlgebraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54CF1A217FB30032E044 /* AlgebraTests.swift */; };
-		84A53DA31B1A91F400E8A107 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84164A581A21B10C00A8B7F4 /* Operators.swift */; };
+		84A53DA31B1A91F400E8A107 /* AlgebraOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84164A581A21B10C00A8B7F4 /* AlgebraOperators.swift */; };
 		84A53DA41B1A91F400E8A107 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54D91A217FCB0032E044 /* Group.swift */; };
 		84A53DA51B1A91F400E8A107 /* Lattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DA1A217FCB0032E044 /* Lattice.swift */; };
 		84A53DA61B1A91F400E8A107 /* Magma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DB1A217FCB0032E044 /* Magma.swift */; };
@@ -67,6 +73,20 @@
 			remoteGlobalIDString = 84DF76021B0BD54600C912B0;
 			remoteInfo = "SwiftCheck-iOSTests";
 		};
+		829F15361B67DD1600F8E692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 844FCC8C198B320500EB242A;
+			remoteInfo = SwiftCheck;
+		};
+		829F153B1B67DD2900F8E692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 84DF75F71B0BD54600C912B0;
+			remoteInfo = "SwiftCheck-iOS";
+		};
 		841B54CA1A217FB30032E044 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 841B54B41A217FB20032E044 /* Project object */;
@@ -84,12 +104,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		829F15391B67DD1E00F8E692 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				829F153A1B67DD2400F8E692 /* SwiftCheck.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84A53DB01B1A93C200E8A107 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				829F153F1B67DD3100F8E692 /* SwiftCheck.framework in CopyFiles */,
 				84A53DB11B1A93C800E8A107 /* Algebra.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,13 +129,14 @@
 
 /* Begin PBXFileReference section */
 		829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftCheck.xcodeproj; path = Carthage/Checkouts/SwiftCheck/SwiftCheck.xcodeproj; sourceTree = "<group>"; };
-		84164A581A21B10C00A8B7F4 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Algebra/Operators.swift; sourceTree = "<group>"; };
+		829F15401B67DD5C00F8E692 /* SemigroupSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemigroupSpec.swift; sourceTree = "<group>"; };
+		829F15431B67DE3700F8E692 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Carthage/Checkouts/Operadics/Operators.swift; sourceTree = "<group>"; };
+		84164A581A21B10C00A8B7F4 /* AlgebraOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlgebraOperators.swift; path = Algebra/AlgebraOperators.swift; sourceTree = "<group>"; };
 		841B54BD1A217FB20032E044 /* Algebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841B54C11A217FB30032E044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841B54C21A217FB30032E044 /* Algebra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Algebra.h; path = Algebra/Algebra.h; sourceTree = "<group>"; };
 		841B54C81A217FB30032E044 /* AlgebraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgebraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841B54CE1A217FB30032E044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		841B54CF1A217FB30032E044 /* AlgebraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgebraTests.swift; sourceTree = "<group>"; };
 		841B54D91A217FCB0032E044 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		841B54DA1A217FCB0032E044 /* Lattice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lattice.swift; sourceTree = "<group>"; };
 		841B54DB1A217FCB0032E044 /* Magma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Magma.swift; sourceTree = "<group>"; };
@@ -131,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829F15381B67DD1900F8E692 /* SwiftCheck.framework in Frameworks */,
 				841B54C91A217FB30032E044 /* Algebra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +179,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829F153D1B67DD2D00F8E692 /* SwiftCheck.framework in Frameworks */,
 				84A53D941B1A91AF00E8A107 /* Algebra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,7 +203,8 @@
 			children = (
 				829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */,
 				841B54C21A217FB30032E044 /* Algebra.h */,
-				84164A581A21B10C00A8B7F4 /* Operators.swift */,
+				829F15431B67DE3700F8E692 /* Operators.swift */,
+				84164A581A21B10C00A8B7F4 /* AlgebraOperators.swift */,
 				841B54BF1A217FB20032E044 /* Algebra */,
 				841B54CC1A217FB30032E044 /* AlgebraTests */,
 				841B54BE1A217FB20032E044 /* Products */,
@@ -216,7 +251,7 @@
 		841B54CC1A217FB30032E044 /* AlgebraTests */ = {
 			isa = PBXGroup;
 			children = (
-				841B54CF1A217FB30032E044 /* AlgebraTests.swift */,
+				829F15401B67DD5C00F8E692 /* SemigroupSpec.swift */,
 				841B54CD1A217FB30032E044 /* Supporting Files */,
 			);
 			path = AlgebraTests;
@@ -277,10 +312,12 @@
 				841B54C41A217FB30032E044 /* Sources */,
 				841B54C51A217FB30032E044 /* Frameworks */,
 				841B54C61A217FB30032E044 /* Resources */,
+				829F15391B67DD1E00F8E692 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				829F15371B67DD1600F8E692 /* PBXTargetDependency */,
 				841B54CB1A217FB30032E044 /* PBXTargetDependency */,
 			);
 			name = AlgebraTests;
@@ -318,6 +355,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				829F153C1B67DD2900F8E692 /* PBXTargetDependency */,
 				84A53D961B1A91AF00E8A107 /* PBXTargetDependency */,
 			);
 			name = "Algebra-iOSTests";
@@ -448,12 +486,13 @@
 				841B54E21A217FCB0032E044 /* Lattice.swift in Sources */,
 				841B54E61A217FCB0032E044 /* Ring.swift in Sources */,
 				841B54E41A217FCB0032E044 /* Module.swift in Sources */,
+				829F15441B67DE3700F8E692 /* Operators.swift in Sources */,
 				841B54E71A217FCB0032E044 /* Semigroup.swift in Sources */,
 				841B54E11A217FCB0032E044 /* Group.swift in Sources */,
 				841B54E51A217FCB0032E044 /* Monoid.swift in Sources */,
 				841B54E81A217FCB0032E044 /* Semiring.swift in Sources */,
 				84EA2C331B1E8CAB0001FB3F /* Algebra.swift in Sources */,
-				84164A591A21B10C00A8B7F4 /* Operators.swift in Sources */,
+				84164A591A21B10C00A8B7F4 /* AlgebraOperators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841B54D01A217FB30032E044 /* AlgebraTests.swift in Sources */,
+				829F15411B67DD5C00F8E692 /* SemigroupSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,10 +509,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EA2C371B222B250001FB3F /* Idempotent.swift in Sources */,
-				84A53DA31B1A91F400E8A107 /* Operators.swift in Sources */,
+				84A53DA31B1A91F400E8A107 /* AlgebraOperators.swift in Sources */,
 				84A53DA41B1A91F400E8A107 /* Group.swift in Sources */,
 				84A53DA51B1A91F400E8A107 /* Lattice.swift in Sources */,
 				84A53DA61B1A91F400E8A107 /* Magma.swift in Sources */,
+				829F15451B67DE3700F8E692 /* Operators.swift in Sources */,
 				84A53DA71B1A91F400E8A107 /* Module.swift in Sources */,
 				84A53DA81B1A91F400E8A107 /* Monoid.swift in Sources */,
 				84A53DA91B1A91F400E8A107 /* Ring.swift in Sources */,
@@ -487,13 +527,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A53DA21B1A91C100E8A107 /* AlgebraTests.swift in Sources */,
+				829F15421B67DD5C00F8E692 /* SemigroupSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		829F15371B67DD1600F8E692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCheck;
+			targetProxy = 829F15361B67DD1600F8E692 /* PBXContainerItemProxy */;
+		};
+		829F153C1B67DD2900F8E692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftCheck-iOS";
+			targetProxy = 829F153B1B67DD2900F8E692 /* PBXContainerItemProxy */;
+		};
 		841B54CB1A217FB30032E044 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 841B54BC1A217FB20032E044 /* Algebra */;
