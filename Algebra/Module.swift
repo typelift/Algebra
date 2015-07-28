@@ -49,3 +49,19 @@ extension Int64 : LeftModule {
 }
 public func *<>(l : Int, r : Int64) -> Int64 { return Int64(l) * r }
 
+
+extension Int : RightModule { }
+public func <>*(l : Int, r : Int) -> Int { return l * r }
+
+extension Int8 : RightModule { }
+public func <>*(l : Int8, r : Int) -> Int8 { return l * Int8(r) }
+
+extension Int16 : RightModule { }
+public func <>*(l : Int16, r : Int) -> Int16 { return l * Int16(r) }
+
+extension Int32 : RightModule { }
+public func <>*(l : Int32, r : Int) -> Int32 { return l * Int32(r) }
+
+extension Int64 : RightModule { }
+public func <>*(l : Int64, r : Int) -> Int64 { return l * Int64(r) }
+
