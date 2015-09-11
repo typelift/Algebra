@@ -81,5 +81,19 @@ class SemigroupSpec : XCTestCase {
 				^&&^
 				(x <> (y <> z) == (x <> y) <> z) <?> "Right Associativity"
 		}
+
+		property("Float obeys left and right associativity") <- forAll { (x : Float, y : Float, z : Float) in
+			return
+				((x <> y) <> z == x <> (y <> z)) <?> "Left Associativity"
+				^&&^
+				(x <> (y <> z) == (x <> y) <> z) <?> "Right Associativity"
+		}
+
+		property("Double obeys left and right associativity") <- forAll { (x : Double, y : Double, z : Double) in
+			return
+				((x <> y) <> z == x <> (y <> z)) <?> "Left Associativity"
+				^&&^
+				(x <> (y <> z) == (x <> y) <> z) <?> "Right Associativity"
+		}
 	}
 }
