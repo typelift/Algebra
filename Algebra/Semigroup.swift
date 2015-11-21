@@ -22,5 +22,4 @@ extension Int8 : Semigroup { }
 extension Int16 : Semigroup { }
 extension Int32 : Semigroup { }
 extension Int64 : Semigroup { }
-extension Float : Semigroup { }
-extension Double : Semigroup { }
+

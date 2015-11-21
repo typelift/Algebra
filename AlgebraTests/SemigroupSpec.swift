@@ -14,7 +14,7 @@ class SemigroupSpec : XCTestCase {
 	func testProperties() {
 		property("Int obeys left and right associativity") <- forAll { (x : Int, y : Int, z : Int) in
 			return
-					((x <> y) <> z == x <> (y <> z)) <?> "Left Associativity"
+				((x <> y) <> z == x <> (y <> z)) <?> "Left Associativity"
 				^&&^
 				(x <> (y <> z) == (x <> y) <> z) <?> "Right Associativity"
 		}
@@ -76,20 +76,6 @@ class SemigroupSpec : XCTestCase {
 		}
 
 		property("UInt64 obeys left and right associativity") <- forAll { (x : UInt64, y : UInt64, z : UInt64) in
-			return
-				((x <> y) <> z == x <> (y <> z)) <?> "Left Associativity"
-				^&&^
-				(x <> (y <> z) == (x <> y) <> z) <?> "Right Associativity"
-		}
-
-		property("Float obeys left and right associativity") <- forAll { (x : Float, y : Float, z : Float) in
-			return
-				((x <> y) <> z == x <> (y <> z)) <?> "Left Associativity"
-				^&&^
-				(x <> (y <> z) == (x <> y) <> z) <?> "Right Associativity"
-		}
-
-		property("Double obeys left and right associativity") <- forAll { (x : Double, y : Double, z : Double) in
 			return
 				((x <> y) <> z == x <> (y <> z)) <?> "Left Associativity"
 				^&&^
