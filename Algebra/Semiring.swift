@@ -20,5 +20,3 @@ extension Int8 : Semiring { }
 extension Int16 : Semiring { }
 extension Int32 : Semiring { }
 extension Int64 : Semiring { }
-extension Float : Semiring { }
-extension Double : Semiring { }

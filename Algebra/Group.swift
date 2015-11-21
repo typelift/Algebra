@@ -35,12 +35,6 @@ extension Int32 : Group {
 extension Int64 : Group {
 	static func invert(l : Int64) -> Int64 { return -l }
 }
-extension Float : Group {
-	static func invert(l : Float) -> Float { return -l }
-}
-extension Double : Group {
-	static func invert(l : Double) -> Double { return -l }
-}
 
 extension Int : AbelianGroup { }
 extension Int8 : AbelianGroup { }

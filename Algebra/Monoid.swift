@@ -59,12 +59,7 @@ extension Int32 : Additive {
 extension Int64 : Additive {
 	public static var zero : Int64 { return 0 }
 }
-extension Float : Additive {
-	public static var zero : Float { return 0.0 }
-}
-extension Double : Additive {
-	public static var zero : Double { return 0.0 }
-}
+
 
 extension Bool : Multiplicative {
 	public static var one : Bool { return true }
@@ -99,9 +94,4 @@ extension Int32 : Multiplicative {
 extension Int64 : Multiplicative {
 	public static var one : Int64 { return 1 }
 }
-extension Float : Multiplicative {
-	public static var one : Float { return 1.0 }
-}
-extension Double : Multiplicative {
-	public static var one : Double { return 1.0 }
-}
+
