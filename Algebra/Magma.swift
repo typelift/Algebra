@@ -10,5 +10,5 @@
 /// basis of more interesting structures.
 protocol Magma {
 	typealias M
-	func <>(M, M) -> M
+	func <>(_: M, _: M) -> M
 }

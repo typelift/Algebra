@@ -10,14 +10,14 @@
 /// operation that computes the least upper bound).
 protocol JoinSemilattice {
 	typealias L
-	static func join(L) -> L -> L
+	static func join(_: L) -> L -> L
 }
 
 /// A Meet-Semilattice is a partially ordered set that defines a meet operation (that is, has an 
 /// operation that computes the greatest lower bound).
 protocol MeetSemilattice {
 	typealias L
-	static func meet(L) -> L -> L
+	static func meet(_: L) -> L -> L
 }
 
 /// A Lattice is a partially ordered set that defines both a meet and join operation.

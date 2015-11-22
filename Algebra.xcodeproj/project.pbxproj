@@ -282,6 +282,8 @@
 		841B54B41A217FB20032E044 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = TypeLift;
 				TargetAttributes = {
