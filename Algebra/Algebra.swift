@@ -7,8 +7,8 @@
 //
 
 protocol Algebra {
-	typealias R : Semiring
-	typealias A
+	associatedtype R : Semiring
+	associatedtype A
 }
 
 protocol Coalgebra : Algebra {

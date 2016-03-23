@@ -10,7 +10,7 @@
 /// basis of more interesting structures.
 protocol Magma {
 	associatedtype M
-	func <> (_: M, _: M) -> M
+	func <>(_ : M, _ : M) -> M
 }
 
 extension Bool : Magma { typealias M = Bool }

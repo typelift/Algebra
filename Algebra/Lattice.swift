@@ -17,7 +17,7 @@ protocol JoinSemilattice {
 /// operation that computes the greatest lower bound).
 protocol MeetSemilattice {
 	associatedtype L
-	static func meet(_: L) -> L -> L
+	static func meet(_ : L) -> L -> L
 }
 
 /// A Lattice is a partially ordered set that defines both a meet and join operation.

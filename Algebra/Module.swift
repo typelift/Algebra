@@ -9,8 +9,8 @@
 /// If R is a Ring and M is an abelian group, a Left Module defines a binary operation R *<> M -> M.
 protocol LeftModule {
 	associatedtype R : Semiring
-	associatedtype M : Additive
-	func *<> (_ : R, _ : M) -> M
+	associatedtype A : Additive
+	func *<>(_ : R, _ : A) -> A
 }
 
 /// If R is a Ring and M is an abelian group, a Right Module defines a binary operation M <>* R -> M.
