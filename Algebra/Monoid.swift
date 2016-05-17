@@ -25,5 +25,3 @@ protocol Additive : Semigroup {
 protocol Multiplicative : Semigroup {
 	static func one() -> M
 }
-
-

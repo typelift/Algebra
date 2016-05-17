@@ -8,16 +8,16 @@
 
 /// If R is a Ring and M is an abelian group, a Left Module defines a binary operation R *<> M -> M.
 protocol LeftModule {
-	typealias R : Semiring
-	typealias M : Additive
-	func *<>(_: R, _: M) -> M
+	associatedtype R : Semiring
+	associatedtype M : Additive
+	func *<> (_: R, _: M) -> M
 }
 
 /// If R is a Ring and M is an abelian group, a Right Module defines a binary operation M <>* R -> M.
 protocol RightModule {
-	typealias R : Semiring
-	typealias M : Additive
-	func <>*(_: M, _: R) -> M
+	associatedtype R : Semiring
+	associatedtype M : Additive
+	func <>* (_: M, _: R) -> M
 }
 
 /// A bimodule is a module with compatible left and right operations.
