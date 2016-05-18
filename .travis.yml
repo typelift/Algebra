@@ -4,8 +4,6 @@ script:
     - set -o pipefail
     - xcodebuild test -scheme Algebra -configuration Debug | xcpretty -c
     - xcodebuild test -scheme Algebra-iOS -configuration Debug -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6s" | xcpretty -c
-    - xcodebuild test -scheme Algebra-tvOS -destination 'platform=tvOS Simulator,name=Apple TV 1080p' | xcpretty -c
-    - xcodebuild build -scheme Algebra-watchOS -destination 'platform=watchOS Simulator,name=Apple Watch - 42mm' | xcpretty -c
 
 notifications:
   webhooks:
