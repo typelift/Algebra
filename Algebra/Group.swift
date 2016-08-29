@@ -41,5 +41,3 @@ extension Int8 : AbelianGroup { }
 extension Int16 : AbelianGroup { }
 extension Int32 : AbelianGroup { }
 extension Int64 : AbelianGroup { }
-extension Float : AbelianGroup { }
-extension Double : AbelianGroup { }
