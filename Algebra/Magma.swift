@@ -9,6 +9,6 @@
 /// A magma is a set and a closed binary operator.  It is usually not studied because it forms the
 /// basis of more interesting structures.
 protocol Magma {
-	typealias M
-	func <>(_: M, _: M) -> M
+	associatedtype M
+	func <> (_: M, _: M) -> M
 }
