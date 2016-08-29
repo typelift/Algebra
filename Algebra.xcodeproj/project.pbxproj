@@ -1114,6 +1114,7 @@
 				822D2FD41D74BE8F007F3DF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		822D2FD51D74BE8F007F3DF3 /* Build configuration list for PBXNativeTarget "Algebra-tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1122,6 +1123,7 @@
 				822D2FD71D74BE8F007F3DF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		841B54B71A217FB20032E044 /* Build configuration list for PBXProject "Algebra" */ = {
 			isa = XCConfigurationList;
