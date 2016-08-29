@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		822D2FCA1D74BE8F007F3DF3 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822D2FC11D74BE8F007F3DF3 /* Algebra.framework */; };
+		822D2FD81D74BEC1007F3DF3 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F15431B67DE3700F8E692 /* Operators.swift */; };
+		822D2FD91D74BEC1007F3DF3 /* AlgebraOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84164A581A21B10C00A8B7F4 /* AlgebraOperators.swift */; };
+		822D2FDA1D74BEC1007F3DF3 /* Algebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA2C321B1E8CAB0001FB3F /* Algebra.swift */; };
+		822D2FDB1D74BEC1007F3DF3 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54D91A217FCB0032E044 /* Group.swift */; };
+		822D2FDC1D74BEC1007F3DF3 /* Idempotent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA2C351B222B250001FB3F /* Idempotent.swift */; };
+		822D2FDD1D74BEC1007F3DF3 /* Lattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DA1A217FCB0032E044 /* Lattice.swift */; };
+		822D2FDE1D74BEC1007F3DF3 /* Magma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DB1A217FCB0032E044 /* Magma.swift */; };
+		822D2FDF1D74BEC1007F3DF3 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DC1A217FCB0032E044 /* Module.swift */; };
+		822D2FE01D74BEC1007F3DF3 /* Monoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DD1A217FCB0032E044 /* Monoid.swift */; };
+		822D2FE11D74BEC1007F3DF3 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DE1A217FCB0032E044 /* Ring.swift */; };
+		822D2FE21D74BEC1007F3DF3 /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DF1A217FCB0032E044 /* Semigroup.swift */; };
+		822D2FE31D74BEC1007F3DF3 /* Semiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54E01A217FCB0032E044 /* Semiring.swift */; };
+		822D2FE41D74BEC6007F3DF3 /* SemigroupSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F15401B67DD5C00F8E692 /* SemigroupSpec.swift */; };
+		822D2FE51D74BF1D007F3DF3 /* Algebra.h in Headers */ = {isa = PBXBuildFile; fileRef = 841B54C21A217FB30032E044 /* Algebra.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		829F15381B67DD1900F8E692 /* SwiftCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829F152F1B67DCCD00F8E692 /* SwiftCheck.framework */; };
 		829F153A1B67DD2400F8E692 /* SwiftCheck.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 829F152F1B67DCCD00F8E692 /* SwiftCheck.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		829F153D1B67DD2D00F8E692 /* SwiftCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829F152F1B67DCCD00F8E692 /* SwiftCheck.framework */; };
@@ -58,6 +73,20 @@
 			proxyType = 2;
 			remoteGlobalIDString = 8240CCBA1C3A123700EF4D29;
 			remoteInfo = "SwiftCheck-tvOSTests";
+		};
+		822D2FCB1D74BE8F007F3DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841B54B41A217FB20032E044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 822D2FC01D74BE8F007F3DF3;
+			remoteInfo = "Algebra-tvOS";
+		};
+		822D2FE61D74BF6B007F3DF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8240CCB01C3A123600EF4D29;
+			remoteInfo = "SwiftCheck-tvOS";
 		};
 		829F152E1B67DCCD00F8E692 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -142,6 +171,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		822D2FC11D74BE8F007F3DF3 /* Algebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		822D2FC91D74BE8F007F3DF3 /* Algebra-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algebra-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftCheck.xcodeproj; path = Carthage/Checkouts/SwiftCheck/SwiftCheck.xcodeproj; sourceTree = "<group>"; };
 		829F15401B67DD5C00F8E692 /* SemigroupSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemigroupSpec.swift; sourceTree = "<group>"; };
 		829F15431B67DE3700F8E692 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Carthage/Checkouts/Operadics/Operators.swift; sourceTree = "<group>"; };
@@ -166,6 +197,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		822D2FBD1D74BE8F007F3DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822D2FC61D74BE8F007F3DF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822D2FCA1D74BE8F007F3DF3 /* Algebra.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		841B54B91A217FB20032E044 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +280,8 @@
 				841B54C81A217FB30032E044 /* AlgebraTests.xctest */,
 				84A53D891B1A91AF00E8A107 /* Algebra.framework */,
 				84A53D931B1A91AF00E8A107 /* Algebra-iOSTests.xctest */,
+				822D2FC11D74BE8F007F3DF3 /* Algebra.framework */,
+				822D2FC91D74BE8F007F3DF3 /* Algebra-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -284,6 +332,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		822D2FBE1D74BE8F007F3DF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822D2FE51D74BF1D007F3DF3 /* Algebra.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		841B54BA1A217FB20032E044 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,6 +359,43 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		822D2FC01D74BE8F007F3DF3 /* Algebra-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822D2FD21D74BE8F007F3DF3 /* Build configuration list for PBXNativeTarget "Algebra-tvOS" */;
+			buildPhases = (
+				822D2FBC1D74BE8F007F3DF3 /* Sources */,
+				822D2FBD1D74BE8F007F3DF3 /* Frameworks */,
+				822D2FBE1D74BE8F007F3DF3 /* Headers */,
+				822D2FBF1D74BE8F007F3DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Algebra-tvOS";
+			productName = "Algebra-tvOS";
+			productReference = 822D2FC11D74BE8F007F3DF3 /* Algebra.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		822D2FC81D74BE8F007F3DF3 /* Algebra-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822D2FD51D74BE8F007F3DF3 /* Build configuration list for PBXNativeTarget "Algebra-tvOSTests" */;
+			buildPhases = (
+				822D2FC51D74BE8F007F3DF3 /* Sources */,
+				822D2FC61D74BE8F007F3DF3 /* Frameworks */,
+				822D2FC71D74BE8F007F3DF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				822D2FE71D74BF6B007F3DF3 /* PBXTargetDependency */,
+				822D2FCC1D74BE8F007F3DF3 /* PBXTargetDependency */,
+			);
+			name = "Algebra-tvOSTests";
+			productName = "Algebra-tvOSTests";
+			productReference = 822D2FC91D74BE8F007F3DF3 /* Algebra-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		841B54BC1A217FB20032E044 /* Algebra */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841B54D31A217FB30032E044 /* Build configuration list for PBXNativeTarget "Algebra" */;
@@ -385,10 +478,20 @@
 		841B54B41A217FB20032E044 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = TypeLift;
 				TargetAttributes = {
+					822D2FC01D74BE8F007F3DF3 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					822D2FC81D74BE8F007F3DF3 = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
 					841B54BC1A217FB20032E044 = {
 						CreatedOnToolsVersion = 6.2;
 						LastSwiftMigration = 0800;
@@ -427,6 +530,8 @@
 				841B54C71A217FB30032E044 /* AlgebraTests */,
 				84A53D881B1A91AF00E8A107 /* Algebra-iOS */,
 				84A53D921B1A91AF00E8A107 /* Algebra-iOSTests */,
+				822D2FC01D74BE8F007F3DF3 /* Algebra-tvOS */,
+				822D2FC81D74BE8F007F3DF3 /* Algebra-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -477,6 +582,20 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		822D2FBF1D74BE8F007F3DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822D2FC71D74BE8F007F3DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		841B54BB1A217FB20032E044 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -508,6 +627,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		822D2FBC1D74BE8F007F3DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822D2FD81D74BEC1007F3DF3 /* Operators.swift in Sources */,
+				822D2FD91D74BEC1007F3DF3 /* AlgebraOperators.swift in Sources */,
+				822D2FDA1D74BEC1007F3DF3 /* Algebra.swift in Sources */,
+				822D2FDB1D74BEC1007F3DF3 /* Group.swift in Sources */,
+				822D2FDC1D74BEC1007F3DF3 /* Idempotent.swift in Sources */,
+				822D2FDD1D74BEC1007F3DF3 /* Lattice.swift in Sources */,
+				822D2FDE1D74BEC1007F3DF3 /* Magma.swift in Sources */,
+				822D2FDF1D74BEC1007F3DF3 /* Module.swift in Sources */,
+				822D2FE01D74BEC1007F3DF3 /* Monoid.swift in Sources */,
+				822D2FE11D74BEC1007F3DF3 /* Ring.swift in Sources */,
+				822D2FE21D74BEC1007F3DF3 /* Semigroup.swift in Sources */,
+				822D2FE31D74BEC1007F3DF3 /* Semiring.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822D2FC51D74BE8F007F3DF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822D2FE41D74BEC6007F3DF3 /* SemigroupSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		841B54B81A217FB20032E044 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -565,6 +711,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		822D2FCC1D74BE8F007F3DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 822D2FC01D74BE8F007F3DF3 /* Algebra-tvOS */;
+			targetProxy = 822D2FCB1D74BE8F007F3DF3 /* PBXContainerItemProxy */;
+		};
+		822D2FE71D74BF6B007F3DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftCheck-tvOS";
+			targetProxy = 822D2FE61D74BF6B007F3DF3 /* PBXContainerItemProxy */;
+		};
 		829F15371B67DD1600F8E692 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftCheck;
@@ -588,6 +744,104 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		822D2FD31D74BE8F007F3DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Algebra/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typelift.Algebra-tvOS";
+				PRODUCT_NAME = Algebra;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		822D2FD41D74BE8F007F3DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Algebra/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typelift.Algebra-tvOS";
+				PRODUCT_NAME = Algebra;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		822D2FD61D74BE8F007F3DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = AlgebraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typelift.Algebra-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 2.3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		822D2FD71D74BE8F007F3DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = AlgebraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.typelift.Algebra-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 2.3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		841B54D11A217FB30032E044 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -776,6 +1030,7 @@
 				PRODUCT_NAME = Algebra;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -798,6 +1053,7 @@
 				PRODUCT_NAME = Algebra;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -823,6 +1079,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.typelift.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -842,6 +1099,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.typelift.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -849,6 +1107,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		822D2FD21D74BE8F007F3DF3 /* Build configuration list for PBXNativeTarget "Algebra-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822D2FD31D74BE8F007F3DF3 /* Debug */,
+				822D2FD41D74BE8F007F3DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		822D2FD51D74BE8F007F3DF3 /* Build configuration list for PBXNativeTarget "Algebra-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822D2FD61D74BE8F007F3DF3 /* Debug */,
+				822D2FD71D74BE8F007F3DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		841B54B71A217FB20032E044 /* Build configuration list for PBXProject "Algebra" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
