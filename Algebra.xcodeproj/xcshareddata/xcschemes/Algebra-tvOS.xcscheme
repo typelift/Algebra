@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84A53D881B1A91AF00E8A107"
+               BlueprintIdentifier = "822D2FC01D74BE8F007F3DF3"
                BuildableName = "Algebra.framework"
-               BlueprintName = "Algebra-iOS"
-               ReferencedContainer = "container:Algebra.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84A53D921B1A91AF00E8A107"
-               BuildableName = "Algebra-iOSTests.xctest"
-               BlueprintName = "Algebra-iOSTests"
+               BlueprintName = "Algebra-tvOS"
                ReferencedContainer = "container:Algebra.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84A53D921B1A91AF00E8A107"
-               BuildableName = "Algebra-iOSTests.xctest"
-               BlueprintName = "Algebra-iOSTests"
+               BlueprintIdentifier = "822D2FC81D74BE8F007F3DF3"
+               BuildableName = "Algebra-tvOSTests.xctest"
+               BlueprintName = "Algebra-tvOSTests"
                ReferencedContainer = "container:Algebra.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84A53D881B1A91AF00E8A107"
+            BlueprintIdentifier = "822D2FC01D74BE8F007F3DF3"
             BuildableName = "Algebra.framework"
-            BlueprintName = "Algebra-iOS"
+            BlueprintName = "Algebra-tvOS"
             ReferencedContainer = "container:Algebra.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -78,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84A53D881B1A91AF00E8A107"
+            BlueprintIdentifier = "822D2FC01D74BE8F007F3DF3"
             BuildableName = "Algebra.framework"
-            BlueprintName = "Algebra-iOS"
+            BlueprintName = "Algebra-tvOS"
             ReferencedContainer = "container:Algebra.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84A53D881B1A91AF00E8A107"
+            BlueprintIdentifier = "822D2FC01D74BE8F007F3DF3"
             BuildableName = "Algebra.framework"
-            BlueprintName = "Algebra-iOS"
+            BlueprintName = "Algebra-tvOS"
             ReferencedContainer = "container:Algebra.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
