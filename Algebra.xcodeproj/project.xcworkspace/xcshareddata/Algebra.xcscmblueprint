@@ -4,32 +4,32 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "53964F28C4CCA0826677C9F951DD3F64C20326C4" : 0,
-    "570C4D95BE80B5E8C6FFC0BED8318BC62404E6A6" : 0,
-    "B1566CF92CFABA5E37554B7B555A1BA50691C03A" : 0
+    "53964F28C4CCA0826677C9F951DD3F64C20326C4" : 9223372036854775807,
+    "570C4D95BE80B5E8C6FFC0BED8318BC62404E6A6" : 9223372036854775807,
+    "B1566CF92CFABA5E37554B7B555A1BA50691C03A" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7463F262-5386-4D27-88FC-7EDEE3B15B7F",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B9716910-90F7-4DC2-BC98-DD5F4D526F33",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "53964F28C4CCA0826677C9F951DD3F64C20326C4" : "Algebra\/Carthage\/Checkouts\/SwiftCheck\/",
+    "53964F28C4CCA0826677C9F951DD3F64C20326C4" : "Algebra\/.build\/checkouts\/SwiftCheck.git--4306398712468813520\/",
     "570C4D95BE80B5E8C6FFC0BED8318BC62404E6A6" : "Algebra\/",
-    "B1566CF92CFABA5E37554B7B555A1BA50691C03A" : "Algebra\/Carthage\/Checkouts\/SwiftCheck\/Carthage\/Checkouts\/Operadics\/"
+    "B1566CF92CFABA5E37554B7B555A1BA50691C03A" : "Algebra\/Carthage\/Checkouts\/Operadics\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Algebra",
-  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Algebra.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/typelift\/SwiftCheck.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/bkase\/Algebra\/.build\/repositories\/SwiftCheck.git--4306398712468813520",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "53964F28C4CCA0826677C9F951DD3F64C20326C4"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CodaFi\/Algebra.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bkase\/Algebra.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "570C4D95BE80B5E8C6FFC0BED8318BC62404E6A6"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/typelift\/Operadics.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/bkase\/Algebra\/.build\/repositories\/Operadics.git-5626071303828032414",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1566CF92CFABA5E37554B7B555A1BA50691C03A"
     }

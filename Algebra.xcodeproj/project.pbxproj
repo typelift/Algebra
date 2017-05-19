@@ -7,8 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		822D2FCA1D74BE8F007F3DF3 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822D2FC11D74BE8F007F3DF3 /* Algebra.framework */; };
-		822D2FD81D74BEC1007F3DF3 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F15431B67DE3700F8E692 /* Operators.swift */; };
+		093351461ED02D3B00167714 /* SemigroupSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093351401ED02A5300167714 /* SemigroupSpec.swift */; };
+		093351471ED02D3C00167714 /* SemigroupSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093351401ED02A5300167714 /* SemigroupSpec.swift */; };
+		093351481ED02D3D00167714 /* SemigroupSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093351401ED02A5300167714 /* SemigroupSpec.swift */; };
+		0933514A1ED02D4E00167714 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 093351491ED02D4E00167714 /* Info.plist */; };
+		093D20541ED03D2300800C26 /* SwiftCheck.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 822D2FAB1D73FC1C007F3DF3 /* SwiftCheck.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		093D20551ED03D4400800C26 /* Algebra.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 822D2FC11D74BE8F007F3DF3 /* Algebra.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		093D20561ED03EF500800C26 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841B54BD1A217FB20032E044 /* Algebra.framework */; };
+		093D20571ED03F0600800C26 /* SwiftCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829F15331B67DCCD00F8E692 /* SwiftCheck.framework */; };
+		0972E7F11ED0471600912AB2 /* Operadics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0972E7EB1ED046BA00912AB2 /* Operadics.framework */; };
+		0972E7F21ED0471900912AB2 /* Operadics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0972E7EB1ED046BA00912AB2 /* Operadics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0972E7F51ED0472300912AB2 /* Operadics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0972E7EB1ED046BA00912AB2 /* Operadics.framework */; };
+		0972E7F61ED0472600912AB2 /* Operadics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0972E7EB1ED046BA00912AB2 /* Operadics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0972E7FD1ED04C0300912AB2 /* Operadics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0972E7EB1ED046BA00912AB2 /* Operadics.framework */; };
+		0972E7FE1ED04C0800912AB2 /* Operadics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0972E7EB1ED046BA00912AB2 /* Operadics.framework */; };
+		0972E7FF1ED04C0B00912AB2 /* Operadics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0972E7EB1ED046BA00912AB2 /* Operadics.framework */; };
 		822D2FD91D74BEC1007F3DF3 /* AlgebraOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84164A581A21B10C00A8B7F4 /* AlgebraOperators.swift */; };
 		822D2FDA1D74BEC1007F3DF3 /* Algebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA2C321B1E8CAB0001FB3F /* Algebra.swift */; };
 		822D2FDB1D74BEC1007F3DF3 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54D91A217FCB0032E044 /* Group.swift */; };
@@ -20,16 +33,11 @@
 		822D2FE11D74BEC1007F3DF3 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DE1A217FCB0032E044 /* Ring.swift */; };
 		822D2FE21D74BEC1007F3DF3 /* Semigroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54DF1A217FCB0032E044 /* Semigroup.swift */; };
 		822D2FE31D74BEC1007F3DF3 /* Semiring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B54E01A217FCB0032E044 /* Semiring.swift */; };
-		822D2FE41D74BEC6007F3DF3 /* SemigroupSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F15401B67DD5C00F8E692 /* SemigroupSpec.swift */; };
 		822D2FE51D74BF1D007F3DF3 /* Algebra.h in Headers */ = {isa = PBXBuildFile; fileRef = 841B54C21A217FB30032E044 /* Algebra.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		829F15381B67DD1900F8E692 /* SwiftCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829F152F1B67DCCD00F8E692 /* SwiftCheck.framework */; };
 		829F153A1B67DD2400F8E692 /* SwiftCheck.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 829F152F1B67DCCD00F8E692 /* SwiftCheck.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		829F153D1B67DD2D00F8E692 /* SwiftCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829F152F1B67DCCD00F8E692 /* SwiftCheck.framework */; };
 		829F153F1B67DD3100F8E692 /* SwiftCheck.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 829F15331B67DCCD00F8E692 /* SwiftCheck.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		829F15411B67DD5C00F8E692 /* SemigroupSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F15401B67DD5C00F8E692 /* SemigroupSpec.swift */; };
-		829F15421B67DD5C00F8E692 /* SemigroupSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F15401B67DD5C00F8E692 /* SemigroupSpec.swift */; };
-		829F15441B67DE3700F8E692 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F15431B67DE3700F8E692 /* Operators.swift */; };
-		829F15451B67DE3700F8E692 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F15431B67DE3700F8E692 /* Operators.swift */; };
 		84164A591A21B10C00A8B7F4 /* AlgebraOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84164A581A21B10C00A8B7F4 /* AlgebraOperators.swift */; };
 		841B54C31A217FB30032E044 /* Algebra.h in Headers */ = {isa = PBXBuildFile; fileRef = 841B54C21A217FB30032E044 /* Algebra.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		841B54C91A217FB30032E044 /* Algebra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841B54BD1A217FB20032E044 /* Algebra.framework */; };
@@ -60,6 +68,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0972E7EA1ED046BA00912AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0972E7E61ED046B900912AB2 /* Operadics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = OBJ_13;
+			remoteInfo = Operadics;
+		};
+		0972E7EF1ED0471300912AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0972E7E61ED046B900912AB2 /* Operadics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_14;
+			remoteInfo = Operadics;
+		};
+		0972E7F31ED0472200912AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0972E7E61ED046B900912AB2 /* Operadics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_14;
+			remoteInfo = Operadics;
+		};
+		0972E7F71ED04BD200912AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0972E7E61ED046B900912AB2 /* Operadics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_14;
+			remoteInfo = Operadics;
+		};
+		0972E7F91ED04BD700912AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0972E7E61ED046B900912AB2 /* Operadics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_14;
+			remoteInfo = Operadics;
+		};
+		0972E7FB1ED04BDB00912AB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0972E7E61ED046B900912AB2 /* Operadics.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_14;
+			remoteInfo = Operadics;
+		};
 		822D2FAA1D73FC1C007F3DF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */;
@@ -147,6 +197,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		093D20511ED03D1300800C26 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				093D20551ED03D4400800C26 /* Algebra.framework in CopyFiles */,
+				093D20541ED03D2300800C26 /* SwiftCheck.framework in CopyFiles */,
+				0972E7F61ED0472600912AB2 /* Operadics.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		829F15391B67DD1E00F8E692 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -165,23 +227,24 @@
 			files = (
 				829F153F1B67DD3100F8E692 /* SwiftCheck.framework in CopyFiles */,
 				84A53DB11B1A93C800E8A107 /* Algebra.framework in CopyFiles */,
+				0972E7F21ED0471900912AB2 /* Operadics.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		093351401ED02A5300167714 /* SemigroupSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SemigroupSpec.swift; path = Tests/AlgebraTests/SemigroupSpec.swift; sourceTree = SOURCE_ROOT; };
+		093351491ED02D4E00167714 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/AlgebraTests/Info.plist; sourceTree = SOURCE_ROOT; };
+		0972E7E61ED046B900912AB2 /* Operadics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Operadics.xcodeproj; path = Carthage/Checkouts/Operadics/Operadics.xcodeproj; sourceTree = "<group>"; };
 		822D2FC11D74BE8F007F3DF3 /* Algebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		822D2FC91D74BE8F007F3DF3 /* Algebra-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Algebra-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftCheck.xcodeproj; path = Carthage/Checkouts/SwiftCheck/SwiftCheck.xcodeproj; sourceTree = "<group>"; };
-		829F15401B67DD5C00F8E692 /* SemigroupSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemigroupSpec.swift; sourceTree = "<group>"; };
-		829F15431B67DE3700F8E692 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Carthage/Checkouts/Operadics/Operators.swift; sourceTree = "<group>"; };
 		84164A581A21B10C00A8B7F4 /* AlgebraOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlgebraOperators.swift; path = Algebra/AlgebraOperators.swift; sourceTree = "<group>"; };
 		841B54BD1A217FB20032E044 /* Algebra.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algebra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841B54C11A217FB30032E044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841B54C21A217FB30032E044 /* Algebra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Algebra.h; path = Algebra/Algebra.h; sourceTree = "<group>"; };
 		841B54C81A217FB30032E044 /* AlgebraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgebraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		841B54CE1A217FB30032E044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841B54D91A217FCB0032E044 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		841B54DA1A217FCB0032E044 /* Lattice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lattice.swift; sourceTree = "<group>"; };
 		841B54DB1A217FCB0032E044 /* Magma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Magma.swift; sourceTree = "<group>"; };
@@ -201,6 +264,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0972E7FF1ED04C0B00912AB2 /* Operadics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +272,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				822D2FCA1D74BE8F007F3DF3 /* Algebra.framework in Frameworks */,
+				093D20561ED03EF500800C26 /* Algebra.framework in Frameworks */,
+				093D20571ED03F0600800C26 /* SwiftCheck.framework in Frameworks */,
+				0972E7F51ED0472300912AB2 /* Operadics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +282,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0972E7FD1ED04C0300912AB2 /* Operadics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +299,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0972E7FE1ED04C0800912AB2 /* Operadics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,12 +309,21 @@
 			files = (
 				829F153D1B67DD2D00F8E692 /* SwiftCheck.framework in Frameworks */,
 				84A53D941B1A91AF00E8A107 /* Algebra.framework in Frameworks */,
+				0972E7F11ED0471600912AB2 /* Operadics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0972E7E71ED046B900912AB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0972E7EB1ED046BA00912AB2 /* Operadics.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		829F15281B67DCCC00F8E692 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -263,9 +340,9 @@
 		841B54B31A217FB20032E044 = {
 			isa = PBXGroup;
 			children = (
+				0972E7E61ED046B900912AB2 /* Operadics.xcodeproj */,
 				829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */,
 				841B54C21A217FB30032E044 /* Algebra.h */,
-				829F15431B67DE3700F8E692 /* Operators.swift */,
 				84164A581A21B10C00A8B7F4 /* AlgebraOperators.swift */,
 				841B54BF1A217FB20032E044 /* Algebra */,
 				841B54CC1A217FB30032E044 /* AlgebraTests */,
@@ -315,7 +392,7 @@
 		841B54CC1A217FB30032E044 /* AlgebraTests */ = {
 			isa = PBXGroup;
 			children = (
-				829F15401B67DD5C00F8E692 /* SemigroupSpec.swift */,
+				093351401ED02A5300167714 /* SemigroupSpec.swift */,
 				841B54CD1A217FB30032E044 /* Supporting Files */,
 			);
 			path = AlgebraTests;
@@ -324,7 +401,7 @@
 		841B54CD1A217FB30032E044 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				841B54CE1A217FB30032E044 /* Info.plist */,
+				093351491ED02D4E00167714 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -371,6 +448,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0972E7FC1ED04BDB00912AB2 /* PBXTargetDependency */,
 			);
 			name = "Algebra-tvOS";
 			productName = "Algebra-tvOS";
@@ -384,10 +462,12 @@
 				822D2FC51D74BE8F007F3DF3 /* Sources */,
 				822D2FC61D74BE8F007F3DF3 /* Frameworks */,
 				822D2FC71D74BE8F007F3DF3 /* Resources */,
+				093D20511ED03D1300800C26 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0972E7F41ED0472200912AB2 /* PBXTargetDependency */,
 				822D2FE71D74BF6B007F3DF3 /* PBXTargetDependency */,
 				822D2FCC1D74BE8F007F3DF3 /* PBXTargetDependency */,
 			);
@@ -408,6 +488,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0972E7F81ED04BD200912AB2 /* PBXTargetDependency */,
 			);
 			name = Algebra;
 			productName = Algebra;
@@ -446,6 +527,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0972E7FA1ED04BD700912AB2 /* PBXTargetDependency */,
 			);
 			name = "Algebra-iOS";
 			productName = "Algebra-iOS";
@@ -464,6 +546,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0972E7F01ED0471300912AB2 /* PBXTargetDependency */,
 				829F153C1B67DD2900F8E692 /* PBXTargetDependency */,
 				84A53D961B1A91AF00E8A107 /* PBXTargetDependency */,
 			);
@@ -520,6 +603,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 0972E7E71ED046B900912AB2 /* Products */;
+					ProjectRef = 0972E7E61ED046B900912AB2 /* Operadics.xcodeproj */;
+				},
+				{
 					ProductGroup = 829F15281B67DCCC00F8E692 /* Products */;
 					ProjectRef = 829F15271B67DCCC00F8E692 /* SwiftCheck.xcodeproj */;
 				},
@@ -537,6 +624,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		0972E7EB1ED046BA00912AB2 /* Operadics.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Operadics.framework;
+			remoteRef = 0972E7EA1ED046BA00912AB2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		822D2FAB1D73FC1C007F3DF3 /* SwiftCheck.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -600,6 +694,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0933514A1ED02D4E00167714 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,7 +726,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				822D2FD81D74BEC1007F3DF3 /* Operators.swift in Sources */,
 				822D2FD91D74BEC1007F3DF3 /* AlgebraOperators.swift in Sources */,
 				822D2FDA1D74BEC1007F3DF3 /* Algebra.swift in Sources */,
 				822D2FDB1D74BEC1007F3DF3 /* Group.swift in Sources */,
@@ -650,7 +744,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				822D2FE41D74BEC6007F3DF3 /* SemigroupSpec.swift in Sources */,
+				093351481ED02D3D00167714 /* SemigroupSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,7 +757,6 @@
 				841B54E21A217FCB0032E044 /* Lattice.swift in Sources */,
 				841B54E61A217FCB0032E044 /* Ring.swift in Sources */,
 				841B54E41A217FCB0032E044 /* Module.swift in Sources */,
-				829F15441B67DE3700F8E692 /* Operators.swift in Sources */,
 				841B54E71A217FCB0032E044 /* Semigroup.swift in Sources */,
 				841B54E11A217FCB0032E044 /* Group.swift in Sources */,
 				841B54E51A217FCB0032E044 /* Monoid.swift in Sources */,
@@ -677,7 +770,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829F15411B67DD5C00F8E692 /* SemigroupSpec.swift in Sources */,
+				093351461ED02D3B00167714 /* SemigroupSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,7 +783,6 @@
 				84A53DA41B1A91F400E8A107 /* Group.swift in Sources */,
 				84A53DA51B1A91F400E8A107 /* Lattice.swift in Sources */,
 				84A53DA61B1A91F400E8A107 /* Magma.swift in Sources */,
-				829F15451B67DE3700F8E692 /* Operators.swift in Sources */,
 				84A53DA71B1A91F400E8A107 /* Module.swift in Sources */,
 				84A53DA81B1A91F400E8A107 /* Monoid.swift in Sources */,
 				84A53DA91B1A91F400E8A107 /* Ring.swift in Sources */,
@@ -704,13 +796,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				829F15421B67DD5C00F8E692 /* SemigroupSpec.swift in Sources */,
+				093351471ED02D3C00167714 /* SemigroupSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0972E7F01ED0471300912AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Operadics;
+			targetProxy = 0972E7EF1ED0471300912AB2 /* PBXContainerItemProxy */;
+		};
+		0972E7F41ED0472200912AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Operadics;
+			targetProxy = 0972E7F31ED0472200912AB2 /* PBXContainerItemProxy */;
+		};
+		0972E7F81ED04BD200912AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Operadics;
+			targetProxy = 0972E7F71ED04BD200912AB2 /* PBXContainerItemProxy */;
+		};
+		0972E7FA1ED04BD700912AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Operadics;
+			targetProxy = 0972E7F91ED04BD700912AB2 /* PBXContainerItemProxy */;
+		};
+		0972E7FC1ED04BDB00912AB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Operadics;
+			targetProxy = 0972E7FB1ED04BDB00912AB2 /* PBXContainerItemProxy */;
+		};
 		822D2FCC1D74BE8F007F3DF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 822D2FC01D74BE8F007F3DF3 /* Algebra-tvOS */;
@@ -766,7 +883,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -793,7 +910,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
@@ -808,7 +925,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = AlgebraTests/Info.plist;
+				INFOPLIST_FILE = Tests/AlgebraTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.typelift.Algebra-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -816,7 +933,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
@@ -829,14 +946,14 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = AlgebraTests/Info.plist;
+				INFOPLIST_FILE = Tests/AlgebraTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.typelift.Algebra-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -948,7 +1065,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -968,7 +1085,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.typelift.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -984,11 +1101,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AlgebraTests/Info.plist;
+				INFOPLIST_FILE = Tests/AlgebraTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.typelift.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1000,11 +1117,11 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AlgebraTests/Info.plist;
+				INFOPLIST_FILE = Tests/AlgebraTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.typelift.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -1030,7 +1147,7 @@
 				PRODUCT_NAME = Algebra;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1053,7 +1170,7 @@
 				PRODUCT_NAME = Algebra;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1073,13 +1190,13 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = AlgebraTests/Info.plist;
+				INFOPLIST_FILE = Tests/AlgebraTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.typelift.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1093,13 +1210,13 @@
 					"$(inherited)",
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = AlgebraTests/Info.plist;
+				INFOPLIST_FILE = Tests/AlgebraTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.typelift.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

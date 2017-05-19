@@ -9,6 +9,7 @@
 import Algebra
 import XCTest
 import SwiftCheck
+import Operadics
 
 class SemigroupSpec : XCTestCase {
 	func testProperties() {
@@ -82,4 +83,8 @@ class SemigroupSpec : XCTestCase {
 				(x <> (y <> z) == (x <> y) <> z) <?> "Right Associativity"
 		}
 	}
+
+  static var allTests = [
+      ("testProperties", testProperties),
+  ]
 }
