@@ -6,5 +6,6 @@
 //  Copyright (c) 2014 TypeLift. All rights reserved.
 //
 
-infix operator *<> { }
-infix operator <>* { }
+// TODO: Uncomment these operators when we figure out a way to use them with Modules
+// infix operator *<>
+// infix operator <>*

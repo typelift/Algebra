@@ -18,12 +18,12 @@
 
 /// Semigroups with a zero identity.
 protocol Additive : Semigroup {
-	static var zero : M { get }
+	static var zero : Self { get }
 }
 
 /// Semigroups with a one identity.
 protocol Multiplicative : Semigroup {
-	static var one : M { get }
+	static var one : Self { get }
 }
 
 extension Bool : Additive {

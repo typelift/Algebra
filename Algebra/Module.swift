@@ -7,67 +7,38 @@
 //
 
 /// If R is a Ring and M is an abelian group, a Left Module defines a binary operation R *<> M -> M.
-protocol LeftModule {
-	associatedtype R : Semiring
-	associatedtype A : Additive
-	func *<>(_ : R, _ : A) -> A
+struct LeftModule<R: Semiring, A: Additive> {
+    let multiply: (R, A) -> A
+}
+enum LeftModules {
+    static let int = LeftModule<Int, Int>(multiply: *)
+    static let int8 = LeftModule<Int, Int8>(multiply: { Int8($0) * $1 })
+    static let int16 = LeftModule<Int, Int16>(multiply: { Int16($0) * $1 })
+    static let int32 = LeftModule<Int, Int32>(multiply: { Int32($0) * $1 })
+    static let int64 = LeftModule<Int, Int64>(multiply: { Int64($0) * $1 })
 }
 
 /// If R is a Ring and M is an abelian group, a Right Module defines a binary operation M <>* R -> M.
-protocol RightModule {
-	associatedtype R : Semiring
-	associatedtype M : Additive
-	func <>* (_ : M, _ : R) -> M
+struct RightModule<A: Additive, R: Semiring> {
+    let multiply: (A, R) -> A
+}
+enum RightModules {
+	static let int = RightModule<Int, Int>(multiply: *)
+    static let int8 = RightModule<Int8, Int>(multiply: { $0 * Int8($1) })
+    static let int16 = RightModule<Int16, Int>(multiply: { $0 * Int16($1) })
+    static let int32 = RightModule<Int32, Int>(multiply: { $0 * Int32($1) })
+    static let int64 = RightModule<Int64, Int>(multiply: { $0 * Int64($1) })
 }
 
 /// A bimodule is a module with compatible left and right operations.
-protocol Bimodule : LeftModule, RightModule {}
-
-extension Int : LeftModule {
-	typealias R = Int
-	typealias A = Int
+struct Bimodule<R: Semiring, A: Additive> {
+    let left: LeftModule<R, A>
+    let right: RightModule<A, R>
 }
-public func *<>(l : Int, r : Int) -> Int { return l * r }
-extension Int8 : LeftModule {
-	typealias R = Int
-	typealias A = Int8
+enum Bimodules {
+    static let int = Bimodule(left: LeftModules.int, right: RightModules.int)
+    static let int8 = Bimodule(left: LeftModules.int8, right: RightModules.int8)
+    static let int16 = Bimodule(left: LeftModules.int16, right: RightModules.int16)
+    static let int32 = Bimodule(left: LeftModules.int32, right: RightModules.int32)
+    static let int64 = Bimodule(left: LeftModules.int64, right: RightModules.int64)
 }
-public func *<>(l : Int, r : Int8) -> Int8 { return Int8(l) * r }
-extension Int16 : LeftModule {
-	typealias R = Int
-	typealias A = Int16
-}
-public func *<>(l : Int, r : Int16) -> Int16 { return Int16(l) * r }
-extension Int32 : LeftModule {
-	typealias R = Int
-	typealias A = Int32
-}
-public func *<>(l : Int, r : Int32) -> Int32 { return Int32(l) * r }
-extension Int64 : LeftModule {
-	typealias R = Int
-	typealias A = Int64
-}
-public func *<>(l : Int, r : Int64) -> Int64 { return Int64(l) * r }
-
-
-extension Int : RightModule { }
-public func <>*(l : Int, r : Int) -> Int { return l * r }
-
-extension Int8 : RightModule { }
-public func <>*(l : Int8, r : Int) -> Int8 { return l * Int8(r) }
-
-extension Int16 : RightModule { }
-public func <>*(l : Int16, r : Int) -> Int16 { return l * Int16(r) }
-
-extension Int32 : RightModule { }
-public func <>*(l : Int32, r : Int) -> Int32 { return l * Int32(r) }
-
-extension Int64 : RightModule { }
-public func <>*(l : Int64, r : Int) -> Int64 { return l * Int64(r) }
-
-
-extension Int : Bimodule { }
-extension Int8 : Bimodule { }
-extension Int16 : Bimodule { }
-extension Int32 : Bimodule { }
-extension Int64 : Bimodule { }
