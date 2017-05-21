@@ -8,39 +8,39 @@
 
 /// A Join-Semilattice is a partially ordered set that defines a join operation (that is, has an 
 /// operation that computes the least upper bound).
-protocol JoinSemilattice {
+public protocol JoinSemilattice {
 	associatedtype L
 	static func join(_ : L) -> (L) -> L
 }
 
 /// A Meet-Semilattice is a partially ordered set that defines a meet operation (that is, has an 
 /// operation that computes the greatest lower bound).
-protocol MeetSemilattice {
+public protocol MeetSemilattice {
 	associatedtype L
 	static func meet(_ : L) -> (L) -> L
 }
 
 /// A Lattice is a partially ordered set that defines both a meet and join operation.
-protocol Lattice : JoinSemilattice, MeetSemilattice { }
+public protocol Lattice : JoinSemilattice, MeetSemilattice { }
 
 /// A Bounded Join-Semilattice is a partially ordered set that defines a join operation and
 /// distinguishes a least (bottom) element.
-protocol BoundedJoinSemilattice : JoinSemilattice {
+public protocol BoundedJoinSemilattice : JoinSemilattice {
 	static func least() -> L
 }
 
 /// A Bounded Meet-Semilattice is a partially ordered set that defines a join operation and
 /// distinguishes a greatest (top) element.
-protocol BoundedMeetSemilattice : MeetSemilattice {
+public protocol BoundedMeetSemilattice : MeetSemilattice {
 	static func greatest() -> L
 }
 
 /// A Bounded Lattice is a partially ordered set that defines a both meet and join operation and
 /// distinguishes both a least and greatest element.
-protocol BoundedLattice : BoundedJoinSemilattice, BoundedMeetSemilattice { }
+public protocol BoundedLattice : BoundedJoinSemilattice, BoundedMeetSemilattice { }
 
 extension Bool : JoinSemilattice {
-	typealias L = Bool
+	public typealias L = Bool
 	public static func join(_ l : Bool) -> (Bool) -> Bool {
 		return { r in l  || r }
 	}
@@ -55,13 +55,13 @@ extension Bool : MeetSemilattice {
 extension Bool : Lattice { }
 
 extension Bool : BoundedJoinSemilattice {
-	static func least() -> Bool {
+	public static func least() -> Bool {
 		return false
 	}
 }
 
 extension Bool : BoundedMeetSemilattice {
-	static func greatest() -> Bool {
+	public static func greatest() -> Bool {
 		return true
 	}
 }

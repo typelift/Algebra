@@ -9,7 +9,7 @@
 /// Magmas where the binary operator is associative.  That is:
 ///
 ///     (S <> S) <> S == S <> (S <> S)
-protocol Semigroup : Magma { }
+public protocol Semigroup : Magma { }
 
 extension Bool : Semigroup { }
 extension UInt : Semigroup { }

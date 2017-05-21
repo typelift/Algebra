@@ -10,7 +10,7 @@
 /// its inverse 'b', and some identity 'e', the following holds:
 ///
 ///     a <> b = b <> a = e
-protocol Group : Additive {
+public protocol Group : Additive {
 	static func invert(_ : Self) -> Self
 }
 
@@ -18,22 +18,22 @@ protocol Group : Additive {
 /// the following holds:
 ///
 ///     a <> b = b <> a
-protocol AbelianGroup : Group { }
+public protocol AbelianGroup : Group { }
 
 extension Int : Group {
-	static func invert(_ l : Int) -> Int { return -l }
+	public static func invert(_ l : Int) -> Int { return -l }
 }
 extension Int8 : Group {
-	static func invert(_ l : Int8) -> Int8 { return -l }
+	public static func invert(_ l : Int8) -> Int8 { return -l }
 }
 extension Int16 : Group {
-	static func invert(_ l : Int16) -> Int16 { return -l }
+	public static func invert(_ l : Int16) -> Int16 { return -l }
 }
 extension Int32 : Group {
-	static func invert(_ l : Int32) -> Int32 { return -l }
+	public static func invert(_ l : Int32) -> Int32 { return -l }
 }
 extension Int64 : Group {
-	static func invert(_ l : Int64) -> Int64 { return -l }
+	public static func invert(_ l : Int64) -> Int64 { return -l }
 }
 
 extension Int : AbelianGroup { }
