@@ -8,7 +8,7 @@
 
 /// A semiring is a weakened version of a ring where the underlying structure need only be a
 /// Monoid and not a full Abelian Group.
-protocol Semiring : Multiplicative, Additive { }
+public protocol Semiring : Multiplicative, Additive { }
 
 extension UInt : Semiring { }
 extension UInt8 : Semiring { }

@@ -17,12 +17,12 @@
 /// Monoids, given the choice, we default to Additive in this library.
 
 /// Semigroups with a zero identity.
-protocol Additive : Semigroup {
+public protocol Additive : Semigroup {
 	static var zero : Self { get }
 }
 
 /// Semigroups with a one identity.
-protocol Multiplicative : Semigroup {
+public protocol Multiplicative : Semigroup {
 	static var one : Self { get }
 }
 

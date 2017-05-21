@@ -10,7 +10,7 @@ import Operadics
 
 /// A magma is a set and a closed binary operator.  It is usually not studied because it forms the
 /// basis of more interesting structures.
-protocol Magma {
+public protocol Magma {
 	static func <>(_ : Self, _ : Self) -> Self
 }
 

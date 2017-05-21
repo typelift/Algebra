@@ -6,11 +6,11 @@
 //  Copyright (c) 2015 TypeLift. All rights reserved.
 //
 
-protocol Algebra {
+public protocol Algebra {
 	associatedtype R : Semiring
 	associatedtype A
 }
 
-protocol Coalgebra : Algebra {
+public protocol Coalgebra : Algebra {
 }
 

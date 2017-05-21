@@ -9,6 +9,6 @@
 /// Semigroups with idempotent addition.  That is, for all `a` the following holds:
 ///
 ///     a + a == a
-protocol Idempotent : Additive { }
+public protocol Idempotent : Additive { }
 
 extension Bool : Idempotent { }

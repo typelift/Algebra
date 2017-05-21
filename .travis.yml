@@ -7,7 +7,7 @@ matrix:
       language: objective-c
       osx_image: xcode8.3
       before_install:
-        - git submodule update --init --recursive
+        - carthage checkout
       script:
       # Restore pod build before shipping for 3.0
       # - pod lib lint
@@ -19,8 +19,7 @@ matrix:
       osx_image: xcode8.3
       before_install:
       # Generate xcodeprojects for the pure Swift PM deps
-        - (cd Carthage/Checkouts/Operadics && xcrun swift package generate-xcodeproj --xcconfig-overrides ../../../deployments.xcconfig)
-        - git submodule update --init --recursive
+        - carthage checkout && (cd Carthage/Checkouts/Operadics && xcrun swift package generate-xcodeproj --xcconfig-overrides ../../../deployments.xcconfig)
       script:
         - set -o pipefail
         - xcodebuild test -scheme Algebra | xcpretty -c
@@ -39,9 +38,7 @@ matrix:
       sudo: required
       dist: trusty
       before_install:
-        - git submodule update --init --recursive
         - eval "$(curl -sL https://gist.githubusercontent.com/kylef/5c0475ff02b7c7671d2a/raw/9f442512a46d7a2af7b850d65a7e9bd31edfb09b/swiftenv-install.sh)"
-        - rm -rf Carthage
       script:
         - swift build
         - SWIFTPM_TEST_Algebra=YES swift test
