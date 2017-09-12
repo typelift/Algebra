@@ -10,7 +10,7 @@
 public protocol Rng : Group, Semiring { }
 
 /// A Rig is a Ring with elements lacking an inverse.
-public protocol Rig : Semiring, Additive { }
+public protocol Rig : Semiring { }
 
 /// A Ring is a Group with a second operator that distributes over the group operation much like
 /// how multiplication distributes over addition.
