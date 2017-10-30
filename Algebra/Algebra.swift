@@ -14,3 +14,4 @@ public protocol Algebra {
 public protocol Coalgebra : Algebra {
 }
 
+My changes.
