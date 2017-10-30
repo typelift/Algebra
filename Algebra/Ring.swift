@@ -17,3 +17,4 @@ public protocol Rig : Semiring, Additive { }
 ///
 ///     a • (b <> c) == (a • b) <> (a • c)
 public protocol Ring : Rig, Rng { }
+My changes.
