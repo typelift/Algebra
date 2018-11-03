@@ -1,4 +1,4 @@
-// swift-tools-version:3.1
+// swift-tools-version:4.0
 
 import Foundation
 import PackageDescription
@@ -11,9 +11,15 @@ var isSwiftPMTest: Bool {
 let package = Package(
     name: "Algebra",
     dependencies: [
-        .Package(url: "https://github.com/typelift/Operadics.git",
-                 majorVersion: 0)
-    ] + (isSwiftPMTest ?
-      [.Package(url: "https://github.com/typelift/SwiftCheck.git", versions: Version(0,6,0)..<Version(1,0,0))] :
-      [])
+        .package(url: "https://github.com/typelift/Operadics.git", from: "0.0.0"),
+        .package(url: "https://github.com/typelift/SwiftCheck.git", "0.6.0"..<"1.0.0")
+    ],
+    targets: [
+        .target(
+            name: "Algebra",
+            dependencies: ["Operadics"]),
+        .testTarget(
+            name: "AlgebraTests",
+            dependencies: ["Algebra", "SwiftCheck"])
+    ]
 )
